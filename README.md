@@ -128,8 +128,8 @@ Welcome to my grocery store website. **ZestCo** is not just a grocery app; it's 
 ### 1️⃣ 🛡️ API Endpoints Preview (Security Showcase)
 | Endpoint | Method | Description | Auth Required |
 |---------|---------| --------- | --------------- |
-| `/api/otp/send` | POST | Generates & Sends 6-digit OTP via Email | ❌ No | 
-| `/api/otp/verify` | POST | Validates OTP & sets temporary session | ❌ No |
+| `/api/otp/send` | POST | Generates & Sends 6-digit OTP via Email | ✅ Yes (User) | 
+| `/api/otp/verify` | POST | Validates OTP & sets temporary session | ✅ Yes (Partner) |
 | `/api/delivery/assignment` | GET | Fetches active orders for delivery partner | ✅ Yes (Partner) |
 | `/api/user/payment` | POST | Creates Stripe Payment Intent | ✅ Yes (User) | 
 ---
