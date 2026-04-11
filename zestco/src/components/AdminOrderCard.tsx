@@ -79,7 +79,6 @@ const AdminOrderCard = ({ order }: { order: IOrder }) => {
 
   return (
     <div className="bg-white shadow-sm border border-gray-200 rounded-2xl p-6 transition-all hover:shadow-md">
-      {/* Top Header Section */}
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
         <div className="space-y-2">
           <p className="text-lg font-bold flex items-center gap-2 text-amber-700">
@@ -197,7 +196,6 @@ const AdminOrderCard = ({ order }: { order: IOrder }) => {
         )}
       </div>
 
-      {/* Collapsible Order Items Section */}
       <div className="border-t border-gray-400 mt-6 pt-4">
         <button
           onClick={() => setExpanded((prev) => !prev)}
@@ -257,7 +255,6 @@ const AdminOrderCard = ({ order }: { order: IOrder }) => {
         </AnimatePresence>
       </div>
 
-      {/* Footer Section */}
       <div className="border-t border-gray-400 mt-6 pt-4 flex flex-wrap justify-between items-center gap-4 font-bold">
         <div className="flex items-center gap-3 text-gray-700 text-sm">
           <Truck size={22} className="text-amber-600" />
