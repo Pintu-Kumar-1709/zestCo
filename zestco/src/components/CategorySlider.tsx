@@ -177,7 +177,6 @@ const CategorySlider = () => {
         })}
       </div>
 
-      {/* Right Button */}
       <button
         className="absolute -right-5 top-1/2 -translate-y-1/2 z-20 bg-white/80 backdrop-blur-sm shadow-xl hover:bg-amber-100 rounded-full p-1 opacity-0 group-hover:opacity-100 transition-opacity hidden md:block"
         onClick={() => scroll("right")}
