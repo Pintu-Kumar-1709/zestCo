@@ -273,7 +273,6 @@ const DeliveryBoyDashboard = ({
           </p>
         </div>
 
-        {/* Assignments Section */}
         {assignments.length > 0 ? (
           assignments.map((a: any) => (
             <div
