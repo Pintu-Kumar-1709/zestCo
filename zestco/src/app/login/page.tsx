@@ -61,7 +61,6 @@ const Login = () => {
         className="flex flex-col gap-5 w-full max-w-sm"
         onSubmit={handleLogin}
       >
-        {/* EMAIL */}
         <div className="relative">
           <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
@@ -76,7 +75,6 @@ const Login = () => {
           </label>
         </div>
 
-        {/* PASSWORD */}
         <div className="relative">
           <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
           <input
@@ -102,7 +100,6 @@ const Login = () => {
           </label>
         </div>
 
-        {/* LOGIN BUTTON */}
         <button
           disabled={!email || !password || loading}
           className={`w-full font-semibold py-3 rounded-xl transition-all duration-300 shadow-md ${
@@ -118,7 +115,6 @@ const Login = () => {
           )}
         </button>
 
-        {/* GOOGLE LOGIN */}
         <div
           className="w-full flex items-center justify-center gap-3 border border-gray-400 hover:bg-gray-100 py-3 rounded-xl text-gray-700 font-semibold transition-all duration-300 cursor-pointer"
           onClick={() => signIn("google", { callbackUrl: "/" })}
@@ -128,7 +124,6 @@ const Login = () => {
         </div>
       </motion.form>
 
-      {/* SIGN UP LINK */}
       <p className="text-gray-700 mt-6 text-sm flex items-center gap-2 font-semibold">
         Want to create an account?
         <span
