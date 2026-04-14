@@ -56,7 +56,6 @@ const ViewProducts = () => {
     getGroceries();
   }, []);
 
-  // --- Search Logic Start ---
   useEffect(() => {
     if (!search.trim()) {
       setFiltered(groceries);
@@ -70,7 +69,6 @@ const ViewProducts = () => {
       setFiltered(filteredData);
     }
   }, [search, groceries]);
-  // --- Search Logic End ---
 
   useEffect(() => {
     if (editing) {
