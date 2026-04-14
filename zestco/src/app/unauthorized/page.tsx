@@ -55,7 +55,6 @@ const Unauthorized = () => {
           </motion.div>
 
           <div className="lg:col-span-4 grid grid-rows-2 gap-4">
-            {/* Status Card */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
