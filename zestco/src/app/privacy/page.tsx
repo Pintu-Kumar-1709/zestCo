@@ -34,12 +34,10 @@ const PrivacyPage = () => {
 
   return (
     <div className="min-h-screen bg-[#09090b] text-white py-32 px-6 overflow-hidden relative font-sans">
-      {/* Background Glow Decor */}
       <div className="absolute top-0 right-0 w-125 h-125 bg-amber-500/10 blur-[120px] rounded-full -z-10" />
       <div className="absolute bottom-0 left-0 w-75 h-75 bg-orange-600/5 blur-[100px] rounded-full -z-10" />
 
       <div className="max-w-5xl mx-auto">
-        {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -57,7 +55,6 @@ const PrivacyPage = () => {
           </p>
         </motion.div>
 
-        {/* Interactive Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
           {privacySections.map((item, i) => (
             <motion.div
@@ -89,7 +86,6 @@ const PrivacyPage = () => {
           ))}
         </div>
 
-        {/* Info Banner */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -113,38 +109,6 @@ const PrivacyPage = () => {
           </div>
         </motion.div>
 
-        {/* <div className="text-center flex justify-center items-center group cursor-default select-none overflow-visible ">
-          {"ZestCo.".split("").map((letter, index) => (
-            <motion.span
-              key={index}
-              initial={{
-                color: "rgba(255,255,255,0.03)",
-                WebkitTextStroke: "1px rgba(255,255,255,0.08)",
-                filter: "drop-shadow(0 0 0px rgba(0,0,0,0))",
-              }}
-              whileHover={{
-                color: "transparent",
-                WebkitTextStroke: "1.5px #FF4D00",
-                filter: [
-                  "drop-shadow(0 0 15px rgba(255, 77, 0, 0.9))",
-                  "drop-shadow(0 0 45px rgba(255, 128, 0, 0.5))",
-                  "drop-shadow(0 0 80px rgba(255, 77, 0, 0.2))",
-                ].join(" "),
-                scale: 1.25,
-                y: -15,
-                rotate: index % 2 === 0 ? 4 : -4,
-              }}
-              transition={{
-                type: "spring",
-                stiffness: 400,
-                damping: 12,
-              }}
-              className="text-[100px] md:text-[350px] font-black italic tracking-tighter leading-none transition-all duration-150 inline-block px-1"
-            >
-              {letter}
-            </motion.span>
-          ))}
-        </div> */}
         <div className="text-center flex justify-center items-center group cursor-default select-none overflow-visible">
           {"ZestCo.".split("").map((letter, index) => (
             <motion.span
