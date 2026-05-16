@@ -1,0 +1,40 @@
+================================================================================
+ZESTCO - REAL-TIME GROCERY DELIVERY PLATFORM
+================================================================================
+MIT License
+
+Copyright (c) 2026 Pintu Kumar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+--------------------------------------------------------------------------------
+DISCLAIMER OF LIABILITY & WARRANTIES
+--------------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+ADDITIONAL PROJECT NOTE (ZestCo Architecture)
+--------------------------------------------------------------------------------
+ZestCo is a production-ready, full-stack real-time grocery delivery solution 
+integrating multi-threaded communication systems (Socket.io) for live delivery 
+tracking, asynchronous messaging channels for user-driver live chats, and secure 
+financial gateways (Stripe API) for automated payment processing. 
+
+Any production deployment or commercial fork of this codebase must ensure compliance 
+with third-party API terms of service, including secure handling of live WebSocket 
+connections and encryption of financial telemetry data.
+================================================================================
