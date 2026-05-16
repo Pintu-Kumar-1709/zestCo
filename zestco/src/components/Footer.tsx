@@ -21,7 +21,7 @@ const Footer = () => {
     { Icon: FaLinkedin, href: "https://www.linkedin.com/in/pintu-kumar-12x" },
     { Icon: FiInstagram, href: "https://instagram.com/babu_sajan_12" },
     { Icon: FaSquareXTwitter, href: "https://x.com/babu_sajan_12" },
-    { Icon: FaGithub, href: "https://github.com/Pintu-Kumar-1709" },
+    { Icon: FaGithub, href: "https://github.com/justkmr" },
   ];
 
   useEffect(() => {

@@ -27,11 +27,11 @@
 ---
 
 <p>
-<img src="https://img.shields.io/github/stars/Pintu-Kumar-1709/zestCo?style=social" alt="Stars" />
-<img src="https://img.shields.io/github/forks/Pintu-Kumar-1709/zestCo?style=social" alt="Forks" />
-<img src="https://img.shields.io/github/last-commit/Pintu-Kumar-1709/zestCo?color=orange" alt="Last Commit" />
+<img src="https://img.shields.io/github/stars/justkmr/zestCo?style=social" alt="Stars" />
+<img src="https://img.shields.io/github/forks/justkmr/zestCo?style=social" alt="Forks" />
+<img src="https://img.shields.io/github/last-commit/justkmr/zestCo?color=orange" alt="Last Commit" />
 <img 
-  src="https://img.shields.io/github/license/Pintu-Kumar-1709/zestCo?color=f59e0b" 
+  src="https://img.shields.io/github/license/justkmr/zestCo?color=f59e0b" 
   alt="License" 
   className="h-6"
 />
@@ -623,7 +623,7 @@ SOFTWARE.
 ### **Pintu Kumar** — Full Stack Developer
 
 <p>
-  <a href="https://github.com/Pintu-Kumar-1709">
+  <a href="https://github.com/justkmr">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/pintu-kumar-12x">
@@ -640,9 +640,9 @@ SOFTWARE.
 **🌟 If you found this project helpful, please give it a star!**
 
 <div align="center">
-  <sub>Built with ❤️ and ☕ by <a href="https://github.com/Pintu-Kumar-1709">Pintu Kumar</a></sub>
+  <sub>Built with ❤️ and ☕ by <a href="https://github.com/justkmr">Pintu Kumar</a></sub>
   <br />
-  <sub>© 2026 All Rights Reserved</sub>
+  <sub>© 2026 - 2027 All Rights Reserved</sub>
 </div>
 
 </div>
